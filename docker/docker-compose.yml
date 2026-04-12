@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  rag-app:
+    build: 
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/data
+      - ../logs:/app/logs
+    environment:
+      - EMBEDDING_MODEL_NAME=Qwen/Qwen3-Embedding-0.6B
+      - RERANKER_MODEL_NAME=Qwen/Qwen3-Reranker-0.6B
+      - CHUNK_SIZE=512
+      - OVERLAP_SIZE=50
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - DEBUG=false
+    restart: unless-stopped
