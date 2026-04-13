@@ -1,0 +1,46 @@
+2026-04-12 22:27:45 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-12 22:30:28 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-12 22:30:31 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/AIAG VDA FMEA Handbook 2019_Zh2.pdf, 共116页
+2026-04-12 22:30:31 | ERROR | __main__:process_documents:82 - 文档预处理失败: can only concatenate str (not "NoneType") to str
+2026-04-12 23:13:43 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-12 23:14:04 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-12 23:14:07 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/AIAG VDA FMEA Handbook 2019_Zh2.pdf, 共116页
+2026-04-12 23:14:08 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/akulichev2018.pdf, 共21页
+2026-04-12 23:14:08 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/attentionisallyouneed.pdf, 共15页
+2026-04-12 23:14:09 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/CSS5129-Metal-Seal-Design-Guide.pdf, 共49页
+2026-04-12 23:14:10 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/Rockets missiles.pdf, 共235页
+2026-04-12 23:14:11 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/RULER What’s the Real Context Size of Your.pdf, 共27页
+2026-04-12 23:14:11 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/vit.pdf, 共22页
+2026-04-12 23:14:11 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/yarn.pdf, 共18页
+2026-04-12 23:14:19 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/克拉拉与太阳.pdf, 共296页
+2026-04-12 23:14:19 | ERROR | __main__:process_documents:82 - 文档预处理失败: Collection [documents] does not exist
+2026-04-12 23:16:27 | ERROR | __main__:process_documents:82 - 文档预处理失败: Keyword argument model_name_or_path is not a primitive type
+2026-04-12 23:18:06 | ERROR | __main__:process_documents:82 - 文档预处理失败: Keyword argument model_name_or_path is not a primitive type
+2026-04-12 23:19:42 | ERROR | __main__:process_documents:82 - 文档预处理失败: Keyword argument model_name_or_path is not a primitive type
+2026-04-12 23:20:15 | ERROR | __main__:process_documents:82 - 文档预处理失败: Keyword argument model_name_or_path is not a primitive type
+2026-04-12 23:23:34 | ERROR | __main__:process_documents:82 - 文档预处理失败: Keyword argument model_name_or_path is not a primitive type
+2026-04-12 23:25:06 | ERROR | __main__:process_documents:82 - 文档预处理失败: Keyword argument model_name_or_path is not a primitive type
+2026-04-12 23:26:12 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-12 23:26:28 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-12 23:26:31 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/AIAG VDA FMEA Handbook 2019_Zh2.pdf, 共116页
+2026-04-12 23:26:31 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/akulichev2018.pdf, 共21页
+2026-04-12 23:26:31 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/attentionisallyouneed.pdf, 共15页
+2026-04-12 23:26:33 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/CSS5129-Metal-Seal-Design-Guide.pdf, 共49页
+2026-04-12 23:26:33 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/Rockets missiles.pdf, 共235页
+2026-04-12 23:26:34 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/RULER What’s the Real Context Size of Your.pdf, 共27页
+2026-04-12 23:26:34 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/vit.pdf, 共22页
+2026-04-12 23:26:34 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/yarn.pdf, 共18页
+2026-04-12 23:26:42 | INFO | src.core.document_parser:parse_pdf:39 - 成功解析PDF文件: data/input/documents/克拉拉与太阳.pdf, 共296页
+2026-04-12 23:26:42 | INFO | src.core.vector_store:store_documents:77 - 正在生成 2420 个文档块的嵌入向量...
+2026-04-13 01:48:37 | INFO | src.core.vector_store:store_documents:88 - 成功存储 2420 个文档块到向量数据库
+2026-04-13 01:48:37 | INFO | __main__:process_documents:78 - 文档预处理完成
+2026-04-13 21:39:15 | INFO | src.api.main:<module>:35 - API应用初始化完成
+2026-04-13 21:42:43 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-13 21:42:53 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-13 21:42:53 | INFO | src.api.routes.query_routes:get_query_processor:26 - 查询处理器初始化完成
+2026-04-13 21:42:53 | INFO | src.core.query_processor:search:34 - 处理子查询: 您的查询内容
+2026-04-13 21:42:53 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '您的查询内容', 返回 5 个结果
+2026-04-13 21:43:40 | INFO | src.core.query_processor:search:34 - 处理子查询: 金属密封设计指南
+2026-04-13 21:43:41 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '金属密封设计指南', 返回 3 个结果
+2026-04-13 21:44:04 | INFO | src.core.query_processor:search:34 - 处理子查询: GPT-4
+2026-04-13 21:44:04 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: 'GPT-4', 返回 10 个结果

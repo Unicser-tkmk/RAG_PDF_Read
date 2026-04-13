@@ -1,0 +1,15 @@
+# 模型配置文件
+embedding:
+  name: "Qwen/Qwen3-Embedding-0.6B"
+  max_length: 512
+  batch_size: 32
+
+reranker:
+  name: "Qwen/Qwen3-Reranker-0.6B"
+  max_length: 512
+  batch_size: 16
+
+vector_db:
+  collection_name: "documents"
+  distance_metric: "cosine"
+  dimension: 768

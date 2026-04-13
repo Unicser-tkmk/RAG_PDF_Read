@@ -13,6 +13,8 @@ class VectorStore:
         self.collection_name = settings.COLLECTION_NAME
         self.collection = None
         self.embedding_model = None
+        # 使用默认嵌入函数，避免参数类型问题
+        self.embedding_function = embedding_functions.DefaultEmbeddingFunction()
     
     def set_model(self, embedding_model):
         """设置嵌入模型"""
@@ -20,18 +22,21 @@ class VectorStore:
     
     def _get_or_create_collection(self):
         """获取或创建集合"""
-        if self.collection is None:
-            try:
-                self.collection = self.client.get_collection(
-                    name=self.collection_name
-                )
-            except ValueError:
-                # 集合不存在，创建新集合
-                self.collection = self.client.create_collection(
-                    name=self.collection_name,
-                    metadata={"hnsw:space": "cosine"}
-                )
-        return self.collection
+        try:
+            # 尝试获取现有集合
+            collection = self.client.get_collection(
+                name="documents"
+            )
+            print(f"找到现有集合: documents")
+            return collection
+        except:
+            # 如果集合不存在，创建新集合
+            collection = self.client.create_collection(
+                name="documents",
+                metadata={"hnsw:space": "cosine"}
+            )
+            print("创建了新的ChromaDB集合: documents")
+            return collection
     
     def generate_embeddings(self, texts: List[str]) -> List[List[float]]:
         """生成文本嵌入向量"""
