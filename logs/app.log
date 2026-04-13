@@ -44,3 +44,41 @@
 2026-04-13 21:43:41 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '金属密封设计指南', 返回 3 个结果
 2026-04-13 21:44:04 | INFO | src.core.query_processor:search:34 - 处理子查询: GPT-4
 2026-04-13 21:44:04 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: 'GPT-4', 返回 10 个结果
+2026-04-13 22:38:03 | INFO | src.api.main:<module>:35 - API应用初始化完成
+2026-04-13 22:39:23 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-13 22:39:47 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-13 22:39:47 | INFO | src.api.routes.query_routes:get_query_processor:26 - 查询处理器初始化完成
+2026-04-13 22:39:47 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:39:47 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:40:12 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:40:12 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:40:14 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:40:14 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:40:14 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:40:14 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:41:37 | INFO | src.api.main:<module>:35 - API应用初始化完成
+2026-04-13 22:48:33 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-13 22:48:53 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-13 22:48:53 | INFO | src.api.routes.query_routes:get_query_processor:26 - 查询处理器初始化完成
+2026-04-13 22:48:53 | INFO | src.core.query_processor:search:34 - 处理子查询: 您的查询内容
+2026-04-13 22:48:54 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '您的查询内容', 返回 5 个结果
+2026-04-13 22:49:18 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:49:18 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:52:55 | INFO | src.api.main:<module>:35 - API应用初始化完成
+2026-04-13 22:53:08 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-13 22:53:27 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-13 22:53:27 | INFO | src.api.routes.query_routes:get_query_processor:26 - 查询处理器初始化完成
+2026-04-13 22:53:27 | INFO | src.core.query_processor:search:34 - 处理子查询: 您的查询内容
+2026-04-13 22:53:27 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '您的查询内容', 返回 5 个结果
+2026-04-13 22:53:37 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:53:37 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:53:42 | INFO | src.core.query_processor:search:34 - 处理子查询: 您的查询内容
+2026-04-13 22:53:42 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '您的查询内容', 返回 5 个结果
+2026-04-13 22:53:44 | ERROR | src.core.query_processor:search:48 - 查询处理失败: name 're' is not defined
+2026-04-13 22:53:44 | ERROR | src.api.routes.query_routes:search_documents:77 - 查询处理失败: name 're' is not defined
+2026-04-13 22:57:55 | INFO | src.api.main:<module>:35 - API应用初始化完成
+2026-04-13 22:58:08 | INFO | src.models.model_manager:load_embedding_model:18 - 正在加载嵌入模型: Qwen/Qwen3-Embedding-0.6B
+2026-04-13 22:58:31 | INFO | src.models.model_manager:load_embedding_model:20 - 嵌入模型加载完成
+2026-04-13 22:58:31 | INFO | src.api.routes.query_routes:get_query_processor:26 - 查询处理器初始化完成
+2026-04-13 22:58:31 | INFO | src.core.query_processor:search:35 - 处理子查询: 1926 年 3 月 16 日戈达德液体火箭飞行的高度与时长？
+2026-04-13 22:58:31 | INFO | src.api.routes.query_routes:search_documents:73 - 查询完成: '1926 年 3 月 16 日戈达德液体火箭飞行的高度与时长？', 返回 5 个结果

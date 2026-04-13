@@ -3,6 +3,7 @@ from typing import List, Dict, Any
 from src.core.vector_store import VectorStore
 from src.models.model_manager import ModelManager
 from src.utils.logger import logger
+import re
 
 class QueryProcessor:
     """查询处理器"""

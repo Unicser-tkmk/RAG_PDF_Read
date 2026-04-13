@@ -5,6 +5,7 @@ from src.models.model_manager import ModelManager
 from src.core.vector_store import VectorStore
 from src.utils.logger import logger
 import os
+import re
 
 def initialize_documents():
     """初始化文档处理"""
